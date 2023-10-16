@@ -16,7 +16,7 @@ class EventList(generics.ListCreateAPIView):
 
 class EventDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly,
-                      IsOwnerOrReadOnly]
+                          IsOwnerOrReadOnly]
     queryset = Event.objects.all()
     serializer_class = EventSerializer
 
