@@ -33,7 +33,7 @@ class EventList(generics.ListCreateAPIView):
         botname = self.request.query_params.get('botname')
         if botname is not None:
             queryset = queryset.filter(
-                event_date__gte=datetime.utcnow() + timedelta(minutes=10))
+                event_end_date__gte=datetime.utcnow() + timedelta(minutes=10))
             queryset = queryset.filter(bot_name=botname)
         return queryset
 
