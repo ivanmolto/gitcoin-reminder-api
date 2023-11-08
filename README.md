@@ -1,8 +1,8 @@
 # GITCOIN REMINDERS TWITTER BOT
 
-Gitcoin Reminders is a Twitter bot that tweets reminders about Gitcoin crowdfund related events so you never miss them. 
+[Gitcoin Reminders](https://twitter.com/gitcoinreminder) is a Twitter bot that tweets reminders about [Gitcoin](https://gitcoin.co) crowdfund related events so you never miss them: Gitcoin Grants rounds,...
 
-It is created with Django for the Admin panel and the REST API, Cloud functions, Cloud Scheduler, and Twitter API v2.
+It is built using Django for the Admin panel and the REST API, Cloud functions, Cloud Scheduler, and Twitter API version 2.
 
 ## Overview
 
@@ -56,6 +56,8 @@ This returns an URL that we needed to open up in a browser and authenticated to 
 Then entered the returned PIN back into the terminal. 
 
 From there everything is authorized to make requests with the Twitter API using the consumer key, consumer secret, access token and token secret. 
+
+[Go here](https://twitter.com/gitcoinreminder) to start following Gitcoin Reminders
 
 
 
