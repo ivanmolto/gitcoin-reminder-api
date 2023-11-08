@@ -59,6 +59,14 @@ From there everything is authorized to make requests with the Twitter API using 
 
 [Go here](https://twitter.com/gitcoinreminder) to start following Gitcoin Reminders
 
+## Tech Stack
+
+This project is built using [Python](https://www.python.org/), [Django](https://www.djangoproject.com/), [Django REST Framework](https://www.django-rest-framework.org), [Google Cloud Functions](https://cloud.google.com/functions), [Cloud Scheduler](https://cloud.google.com/scheduler), [Docker](https://www.docker.com), and the [Twitter API v2](https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/introduction).
+
+## License
+
+The code is licensed under a MIT License.
+
 
 
 
